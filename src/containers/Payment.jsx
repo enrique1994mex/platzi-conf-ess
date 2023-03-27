@@ -42,7 +42,7 @@ const Payment = () => {
 				<div className='Payment-button'>
 					<PayPalScriptProvider
 						options={{
-							'client-id': process.env.PAYPAY_CLIENT_ID,
+							'client-id': process.env.PAYPAL_CLIENT_ID,
 							currency: 'MXN',
 							intent: 'capture',
 						}}
